@@ -5,6 +5,7 @@ Included only the projects that i still had where there was a relevant ammount o
 ### First semester
 
 - [Fundamentals of Programming](https://github.com/vladvlad23/FP-Homework)
+- [Computer System Architecture](https://github.com/vladvlad23/ComputerSystemsArchitecture)
 
 ### Second semester
 
