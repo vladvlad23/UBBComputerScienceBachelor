@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe9a5d17-86ce-4cae-a435-9ff051fed48d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignment 05-07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 05-07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/ClientController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/ClientController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/MovieController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/MovieController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/RentalController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/RentalController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/UndoRedoController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/UndoRedoController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Rental.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Rental.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/RentalRepository.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/RentalRepository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/userInterface/Console.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/userInterface/Console.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Assignment_05_07_refactored$main.coverage" NAME="main Coverage Results" MODIFIED="1543778647444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-405704324">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ClientController" value="1" />
+          <entry key="py" value="82" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="82" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="12" />
+          <entry key="py" value="29028" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="29028" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/UndoRedoController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="87" column="95" selection-start-line="87" selection-start-column="95" selection-end-line="87" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/userInterface/Console.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="109" column="26" lean-forward="true" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+              <folding>
+                <marker date="1543777945591" expanded="true" signature="14:15" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="25" column="108" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
+              <folding>
+                <element signature="e#0#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/RentalRepository.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+                <marker date="1543777978335" expanded="true" signature="1499:1925" ph="..." />
+                <marker date="1543777978335" expanded="true" signature="1794:1925" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/RentalController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/ClientRepository.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/ClientController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/MovieRepository.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <marker date="1543772690207" expanded="true" signature="247:248" ph="..." />
+                <marker date="1543772690207" expanded="true" signature="697:1040" ph="..." />
+                <marker date="1543772690207" expanded="true" signature="869:1040" ph="..." />
+                <marker date="1543772690207" expanded="true" signature="3428:3434" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>movie</find>
+      <find>addMovie</find>
+      <find>Title</find>
+      <find>exists</find>
+      <find>client</find>
+      <find>Movie</find>
+      <find>listMovies</find>
+      <find>self.__RentalController</find>
+      <find>self.__MovieController</find>
+      <find>Id must be integer</find>
+      <find>ge</find>
+      <find>searchClientById</find>
+      <find>printMovie</find>
+      <find>controller</find>
+      <find>operation</find>
+      <find>return</find>
+      <find>set</find>
+      <find>modify</find>
+      <find>rentalCompleted</find>
+      <find>,movieList,clientList,rentalList</find>
+      <find>findc</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>client</replace>
+      <replace>self.addMovie</replace>
+      <replace>Description</replace>
+      <replace>add</replace>
+      <replace>Genre</replace>
+      <replace>Rental</replace>
+      <replace>rental</replace>
+      <replace>self.__rentalController</replace>
+      <replace>findMovieById</replace>
+      <replace>self.__movieController</replace>
+      <replace>repository</replace>
+      <replace>self,operation</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/domain/Movie.py" />
+        <option value="$PROJECT_DIR$/domain/Client.py" />
+        <option value="$PROJECT_DIR$/domain/Rental.py" />
+        <option value="$PROJECT_DIR$/repository/MovieController.py" />
+        <option value="$PROJECT_DIR$/repository/RentalRepository.py" />
+        <option value="$PROJECT_DIR$/repository/ClientRepository.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/domain/Exceptions.py" />
+        <option value="$PROJECT_DIR$/domain/ClientValidator.py" />
+        <option value="$PROJECT_DIR$/domain/RentalValidator.py" />
+        <option value="$PROJECT_DIR$/repository/MovieRepository.py" />
+        <option value="$PROJECT_DIR$/domain/MovieValidator.py" />
+        <option value="$PROJECT_DIR$/controller/MovieController.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/controller/MovieController.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/ClientValidator.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Movie.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Exceptions.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/RandomGenerator.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/RentalValidator.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Client.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/MovieValidator.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/MovieRepository.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/ClientRepository.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/RentalController.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/MovieController.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Rental.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/main.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/ClientController.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/userInterface/Console.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/RentalRepository.py" />
+        <option value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/UndoRedoController.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="870" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Assignment_05_07_refactored" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\College\Fundamentals of Programming\FP-Homework\Assignment_05_07_refactored" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Assignment_05_07_refactored" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\College\Fundamentals of Programming\FP-Homework\Assignment_05_07_refactored" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Assignment_05_07_refactored" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Assignment_05_07_refactored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment_05_07_refactored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment_05_07_refactored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment_05_07_refactored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment_05_07_refactored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment_05_07_refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="userInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="datetime&#9;null&#9;null&#10;findMovie&#9;null&#9;null&#10;findClient&#9;ACTION&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\College\Fundamentals of Programming\FP-Homework\Assignment_05_07_refactored\Assignment_05_07_refactored" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Assignment_05_07_refactored" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe9a5d17-86ce-4cae-a435-9ff051fed48d" name="Default Changelist" comment="" />
+      <created>1543741995054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543741995054</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5056657" visible="true" weight="0.1852349" />
+      <window_info id="Structure" order="2" sideWeight="0.49433428" side_tool="true" visible="true" weight="0.1852349" />
+      <window_info anchor="bottom" id="Statistic" order="0" weight="0.5892351" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.39518413" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.5439094" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.75637394" visible="true" weight="0.1852349" />
+      <window_info id="Structure" order="2" sideWeight="0.24362606" side_tool="true" visible="true" weight="0.1852349" />
+      <window_info anchor="bottom" id="Statistic" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.60339946" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.684136" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/MovieController.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/repository/MovieController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/ClientController">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/ClientValidator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <marker date="1543754341264" expanded="true" signature="118:163" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <marker date="1543756411049" expanded="true" signature="37:42" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/RandomGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1543757222379" expanded="true" signature="72:73" ph="..." />
+            <marker date="1543757222379" expanded="true" signature="3130:3149" ph="..." />
+            <marker date="1543757222379" expanded="true" signature="3143:3144" ph="..." />
+            <marker date="1543757222379" expanded="true" signature="4423:5792" ph="..." />
+            <marker date="1543757222379" expanded="true" signature="5780:5792" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/RentalValidator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <marker date="1543760264422" expanded="true" signature="568:571" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <marker date="1543767978092" expanded="true" signature="13:14" ph="..." />
+            <marker date="1543767978092" expanded="true" signature="13:19" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/MovieValidator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <marker date="1543768914645" expanded="true" signature="177:222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="777" selection-start-line="777" selection-end-line="777" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1543755171540" expanded="true" signature="12:13" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/MovieController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1543773936440" expanded="true" signature="159:3326" ph="..." />
+            <marker date="1543773936440" expanded="true" signature="788:794" ph="..." />
+            <marker date="1543773936440" expanded="true" signature="3028:3110" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/594014237/_datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="1602" column="8" selection-start-line="1602" selection-start-column="8" selection-end-line="1602" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/domain/Rental.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/MovieRepository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1543772690207" expanded="true" signature="247:248" ph="..." />
+            <marker date="1543772690207" expanded="true" signature="697:1040" ph="..." />
+            <marker date="1543772690207" expanded="true" signature="869:1040" ph="..." />
+            <marker date="1543772690207" expanded="true" signature="3428:3434" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="25" column="108" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
+          <folding>
+            <element signature="e#0#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/ClientRepository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/ClientController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/userInterface/Console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="109" column="26" lean-forward="true" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+          <folding>
+            <marker date="1543777945591" expanded="true" signature="14:15" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/repository/RentalRepository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+            <marker date="1543777978335" expanded="true" signature="1499:1925" ph="..." />
+            <marker date="1543777978335" expanded="true" signature="1794:1925" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/RentalController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment_05_07_refactored/Assignment_05_07_refactored/controller/UndoRedoController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="87" column="95" selection-start-line="87" selection-start-column="95" selection-end-line="87" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,131 @@
+[1mdiff --git a/Assignment 2/.project b/Assignment 2/.project[m
+[1mdeleted file mode 100644[m
+[1mindex 7786852..0000000[m
+[1m--- a/Assignment 2/.project[m	
+[1m+++ /dev/null[m
+[36m@@ -1,17 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<projectDescription>[m
+[31m-	<name>Assignment 2</name>[m
+[31m-	<comment></comment>[m
+[31m-	<projects>[m
+[31m-	</projects>[m
+[31m-	<buildSpec>[m
+[31m-		<buildCommand>[m
+[31m-			<name>org.python.pydev.PyDevBuilder</name>[m
+[31m-			<arguments>[m
+[31m-			</arguments>[m
+[31m-		</buildCommand>[m
+[31m-	</buildSpec>[m
+[31m-	<natures>[m
+[31m-		<nature>org.python.pydev.pythonNature</nature>[m
+[31m-	</natures>[m
+[31m-</projectDescription>[m
+[1mdiff --git a/Assignment 2/.pydevproject b/Assignment 2/.pydevproject[m
+[1mdeleted file mode 100644[m
+[1mindex ad74947..0000000[m
+[1m--- a/Assignment 2/.pydevproject[m	
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8" standalone="no"?>[m
+[31m-<?eclipse-pydev version="1.0"?><pydev_project>[m
+[31m-<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">[m
+[31m-<path>/${PROJECT_DIR_NAME}</path>[m
+[31m-</pydev_pathproperty>[m
+[31m-<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python interpreter</pydev_property>[m
+[31m-<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>[m
+[31m-</pydev_project>[m
+[1mdiff --git a/Assignment 2/main.py b/Assignment 2/main.py[m
+[1mdeleted file mode 100644[m
+[1mindex e6e67c3..0000000[m
+[1m--- a/Assignment 2/main.py[m	
+[1m+++ /dev/null[m
+[36m@@ -1,87 +0,0 @@[m
+[31m-[m
+[31m-#    Ideas[m
+[31m-# *implement RNG first 10 complex numbers which[m
+[31m-#    have to be in the series[m
+[31m-# *implement "file" to memorize numbers[m
+[31m-# Questions: should the user input a string of form z=a+bi?[m
+[31m-#[m
+[31m-[m
+[31m-#functions prints all numbers in the list [m
+[31m-def printAllNumbers(numbers):[m
+[31m-    for i in numbers:[m
+[31m-        if(i.imag<0): #covering the case of negative imaginary part as to avoid printing "+-" (incorrect math)[m
+[31m-            print(i.real, i.imag,"i",sep="")[m
+[31m-        else:[m
+[31m-            print(i.real, "+" , i.imag,"i",sep="")[m
+[31m-[m
+[31m-#functions gets input from user[m
+[31m-def getNumbers(numbers):[m
+[31m-    numberOfInputs = int(input("How many numbers would you like to input? "))[m
+[31m-    for i in range(0,numberOfInputs):[m
+[31m-        realPart = int(input("The real part, please: "))[m
+[31m-        imaginaryPart = int(input("Imaginary part, please: "))[m
+[31m-        numbers.append(complex(realPart,imaginaryPart))[m
+[31m-        [m
+[31m-#function prints the real numbers in the list[m
+[31m-#the numbers which have the imaginary part=0[m
+[31m-def printRealNumbers(numbers):[m
+[31m-    maxes = longestSequenceOfRealNumbers(numbers)[m
+[31m-    print("The longest subsequence of real numbers has", maxes['maxLength'], "elements and is formed of: ")[m
+[31m-    for i in range(maxes['maxStart'],maxes['maxStart']+maxes['maxLength']):[m
+[31m-        print(i.real)[m
+[31m-        [m
+[31m-        [m
+[31m-def longestSequenceOfRealNumbers(numbers):[m
+[31m-    i=0[m
+[31m-    maxLength=0[m
+[31m-    while i<len(numbers):[m
+[31m-        if numbers[i].imag==0:[m
+[31m-            sequenceStart = i[m
+[31m-            length = 1[m
+[31m-            i+=1[m
+[31m-            while i<len(numbers) and numbers[i].imag==0:[m
+[31m-                length+=1[m
+[31m-                i+=1[m
+[31m-            if length>maxLength:[m
+[31m-                maxLength=length[m
+[31m-                maxStart=sequenceStart[m
+[31m-        i+=1[m
+[31m-    result={'maxStart':maxStart,'maxLength':maxLength}[m
+[31m-    return result[m
+[31m-                    [m
+[31m-def runMenu():[m
+[31m-    [m
+[31m-    [m
+[31m-    help = "Options: \n,\[m
+[31m-    1. 'read' to read a list of complex numbers(in z=a+bi form). \n \[m
+[31m-    2. 'print' to print the entire list of numbers. \n \[m
+[31m-    3. 'print-real' to print the longest subsequence of all real numbers. \n \[m
+[31m-    4. print-distinct' to print the longest subsequence of all distinct numbers. \n"[m
+[31m-    [m
+[31m-    numbers = [complex(1,2),complex(2,3),complex(3,0),complex(4,0),\[m
+[31m-              complex(5,6),complex(6,0),complex(7,0),complex(8,0),\[m
+[31m-              complex(9,10),complex(10,11)][m
+[31m-[m
+[31m-    options = { 'read':getNumbers, 'print':printAllNumbers,\[m
+[31m-                'print-real':printRealNumbers, 'print-distinct':printDistinctNumbers}[m
+[31m-    while(True):[m
+[31m-        userInput = input("Please type an option: ")[m
+[31m-        if userInput in options:[m
+[31m-            options.get(userInput)(numbers)[m
+[31m-        elif userInput=="exit":[m
+[31m-            print("Okay. Bye bye")[m
+[31m-            break[m
+[31m-        elif userInput=="help":[m
+[31m-            print(help)[m
+[31m-            [m
+[31m-[m
+[31m-def processInput(n):[m
+[31m-    pass[m
+[31m-            [m
+[31m-print(help)[m
+[31m-[m
+[31m-#initialize the list with complex numbers [m
+[31m-[m
+[31m-runMenu()[m
+[31m-[m
+[31m-        [m
+\ No newline at end of file[m
