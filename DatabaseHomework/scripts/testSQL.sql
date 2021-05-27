@@ -1,1 +1,0 @@
-ALTER TABLE Student ALTER COLUMN ParentInitial varchar(3) NULL;

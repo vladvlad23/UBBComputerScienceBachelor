@@ -1,7 +1,0 @@
-INSERT INTO COURSE(ProfessorId,CourseDay,ClassroomId,TimeOfCourse,CourseName) VALUES((SELECT ProfessorId FROM (SELECT TOP 1 * FROM Professor ORDER BY NEWID()) AS RandomProfessor),'Monday',(SELECT ClassroomId FROM (SELECT TOP 1 * FROM dbo.Classroom ORDER BY NEWID()) AS RandomClassroom),'10:00','Statistics');
-INSERT INTO COURSE(ProfessorId,CourseDay,ClassroomId,TimeOfCourse,CourseName) VALUES((SELECT ProfessorId FROM (SELECT TOP 1 * FROM Professor ORDER BY NEWID()) AS RandomProfessor),'Tuesday',(SELECT ClassroomId FROM (SELECT TOP 1 * FROM dbo.Classroom ORDER BY NEWID()) AS RandomClassroom),'8:00','Networking');
-INSERT INTO COURSE(ProfessorId,CourseDay,ClassroomId,TimeOfCourse,CourseName) VALUES((SELECT ProfessorId FROM (SELECT TOP 1 * FROM Professor ORDER BY NEWID()) AS RandomProfessor),'Monday',(SELECT ClassroomId FROM (SELECT TOP 1 * FROM dbo.Classroom ORDER BY NEWID()) AS RandomClassroom),'12:00','Algebra');
-INSERT INTO COURSE(ProfessorId,CourseDay,ClassroomId,TimeOfCourse,CourseName) VALUES((SELECT ProfessorId FROM (SELECT TOP 1 * FROM Professor ORDER BY NEWID()) AS RandomProfessor),'Wednesday',(SELECT ClassroomId FROM (SELECT TOP 1 * FROM dbo.Classroom ORDER BY NEWID()) AS RandomClassroom),'10:00','');
-
-
-select * from course

@@ -1,3 +1,0 @@
-E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/cmake-build-debug/CMakeFiles/PracticalWork1_CPPBonus.dir
-E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

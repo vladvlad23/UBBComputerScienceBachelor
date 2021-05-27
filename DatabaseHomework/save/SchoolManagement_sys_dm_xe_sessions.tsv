@@ -1,4 +1,0 @@
-0x0000000BF7342521	hkenginexesession	0	3	1441587	0	0	4324761	1	block	1	flush_on_close	0	0	0	2019-11-19 06:22:51.080	0	internal	0	0	0
-0x0000000BF734F0F1	system_health	0	3	1441587	0	0	4324761	0	drop_event	1	flush_on_close	0	0	0	2019-11-19 06:22:51.420	0	server	1	0	145566
-0x0000000BF59612D1	telemetry_xevents	0	3	1441587	0	0	4324761	0	drop_event	1	flush_on_close	0	0	0	2019-11-19 06:22:51.483	0	server	1	0	501449
-0x0000000BFD432041	sp_server_diagnostics session	0	3	130867	0	0	392601	0	drop_event	17	flush_on_close private	0	0	0	2019-11-19 06:22:51.517	0	internal	0	0	0

@@ -1,10 +1,0 @@
-
-T	java:S106$"9Replace this use of System.out or System.err by a logger.(Ï¿8ö £—ï.
-P
-java:S1068	".Remove this unused "imageWidth" private field.(Ãøºêúÿÿÿÿ8´‰œ—ï.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¨»õÔıÿÿÿÿ
-b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(”ÂÊ³ùÿÿÿÿ8Ÿ¦—ï.
-g
-java:S2184."ECast one of the operands of this subtraction operation to a "double".(ñÉ¡Éûÿÿÿÿ8ˆú¼±ï.
-g
-java:S2184."ECast one of the operands of this subtraction operation to a "double".(ñÉ¡Éûÿÿÿÿ8ˆú¼±ï.

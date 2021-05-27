@@ -1,3 +1,0 @@
-hierarchyid,240,128,4,,892,0,0,,1,0,1,0,0,1,Microsoft.SqlServer.Types.SqlHierarchyId,1,0,,"Microsoft.SqlServer.Types.SqlHierarchyId, Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91",0
-geometry,240,129,4,,-1,0,0,,1,0,1,0,0,1,Microsoft.SqlServer.Types.SqlGeometry,0,0,,"Microsoft.SqlServer.Types.SqlGeometry, Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91",0
-geography,240,130,4,,-1,0,0,,1,0,1,0,0,1,Microsoft.SqlServer.Types.SqlGeography,0,0,,"Microsoft.SqlServer.Types.SqlGeography, Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91",0
