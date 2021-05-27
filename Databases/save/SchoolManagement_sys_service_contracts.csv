@@ -1,6 +1,0 @@
-DEFAULT,6,1
-http://schemas.microsoft.com/SQL/Notifications/PostEventNotification,2,1
-http://schemas.microsoft.com/SQL/Notifications/PostQueryNotification,1,1
-http://schemas.microsoft.com/SQL/ServiceBroker/BrokerConfigurationNotice,3,1
-http://schemas.microsoft.com/SQL/ServiceBroker/ServiceDiagnostic,5,1
-http://schemas.microsoft.com/SQL/ServiceBroker/ServiceEcho,4,1
