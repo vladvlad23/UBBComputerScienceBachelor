@@ -1,0 +1,14 @@
+1,1,512,-1,10,1048578,0,1,master,/var/opt/mssql/data/master.mdf
+2,0,256,-1,10,1048642,0,1,mastlog,/var/opt/mssql/data/mastlog.ldf
+1,1,1024,-1,8192,2,0,2,tempdev,/var/opt/mssql/data/tempdb.mdf
+2,0,1024,-1,8192,66,0,2,templog,/var/opt/mssql/data/templog.ldf
+1,1,1024,-1,8192,2,0,3,modeldev,/var/opt/mssql/data/model.mdf
+2,0,1024,-1,8192,66,0,3,modellog,/var/opt/mssql/data/modellog.ldf
+1,1,1712,-1,10,1048578,0,4,MSDBData,/var/opt/mssql/data/MSDBData.mdf
+2,0,96,268435456,10,1048642,0,4,MSDBLog,/var/opt/mssql/data/MSDBLog.ldf
+1,1,1024,-1,8192,2,0,5,TestDB,/var/opt/mssql/data/TestDB.mdf
+2,0,1024,268435456,8192,66,0,5,TestDB_log,/var/opt/mssql/data/TestDB_log.ldf
+1,1,1024,-1,8192,2,0,6,SchoolManagement,/var/opt/mssql/data/SchoolManagement.mdf
+2,0,1024,268435456,8192,66,0,6,SchoolManagement_log,/var/opt/mssql/data/SchoolManagement_log.ldf
+1,1,5120,-1,8,2,0,32767,data,mssqlsystemresource.mdf
+2,0,160,268435456,8,66,0,32767,log,mssqlsystemresource.ldf

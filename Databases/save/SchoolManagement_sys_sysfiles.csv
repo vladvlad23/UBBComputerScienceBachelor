@@ -1,0 +1,2 @@
+1,1,1024,-1,8192,2,0,SchoolManagement,/var/opt/mssql/data/SchoolManagement.mdf
+2,0,1024,268435456,8192,66,0,SchoolManagement_log,/var/opt/mssql/data/SchoolManagement_log.ldf

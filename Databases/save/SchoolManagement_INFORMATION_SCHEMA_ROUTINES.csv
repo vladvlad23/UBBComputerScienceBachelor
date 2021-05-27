@@ -1,0 +1,167 @@
+SchoolManagement,dbo,AddCreditsToCourses,SchoolManagement,dbo,AddCreditsToCourses,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE AddCreditsToCourses (@doOrUndo BIT) AS
+    IF @doOrUndo=1
+        ALTER TABLE Course
+        ADD ECTSNumber int;
+    ELSE
+        ALTER TABLE Course
+        DROP COLUMN ECTSNumber;",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 11:50:58.343,2019-11-17 11:50:58.343
+SchoolManagement,dbo,AddDefaultConstraint,SchoolManagement,dbo,AddDefaultConstraint,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE AddDefaultConstraint (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE Classroom
+        ADD CONSTRAINT featureConstraint DEFAULT NULL for ClassroomFeatures;
+    ELSE
+        ALTER TABLE Classroom
+        DROP CONSTRAINT featureConstraint;",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 11:51:24.693,2019-11-17 11:51:24.693
+SchoolManagement,dbo,AddForeignKey,SchoolManagement,dbo,AddForeignKey,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE AddForeignKey (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE AcademicEvent
+        ADD CONSTRAINT coordinatorProfessor FOREIGN KEY (CoordinatorProfessorId) REFERENCES Professor(ProfessorId)
+    ELSE
+        ALTER TABLE AcademicEvent
+        DROP CONSTRAINT coordinatorProfessor",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 11:51:47.620,2019-11-17 11:51:47.620
+SchoolManagement,dbo,ModifyCredits,SchoolManagement,dbo,ModifyCredits,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE ModifyCredits (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE Course
+        ALTER COLUMN ECTSNumber BIT
+    ELSE
+        ALTER TABLE Course
+        ALTER Column ECTSNumber INT",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 11:56:32.707,2019-11-17 11:56:32.707
+SchoolManagement,dbo,AddCandidateKey,SchoolManagement,dbo,AddCandidateKey,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"--version 5
+CREATE PROCEDURE AddCandidateKey (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE AcademicEvent
+        ADD CONSTRAINT oneEventPerDay UNIQUE (AcademicEventDate)
+    ELSE
+        ALTER TABLE AcademicEvent
+        DROP CONSTRAINT oneEventPerDay",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 12:35:40.970,2019-11-17 12:35:40.970
+SchoolManagement,dbo,GetCurrentVersion,SchoolManagement,dbo,GetCurrentVersion,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE GetCurrentVersion (@version INT OUTPUT) AS 
+    SELECT @version = VersionNumber
+    FROM DatabaseVersion",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 13:19:33.850,2019-11-17 13:19:33.850
+SchoolManagement,dbo,RollForward,SchoolManagement,dbo,RollForward,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE RollForward (@currentVersion INT) AS
+    print 'rolling forwards from '
+    print @currentVersion
+    if @currentVersion = 1
+    BEGIN
+        exec AddCreditsToCourses @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 2
+    END
+    else if @currentVersion = 2
+    BEGIN
+        exec ModifyCredits @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 3
+    END
+    else if @currentVersion = 3
+    BEGIN
+        exec AddDefaultConstraint @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 4
+    END
+    else if @currentVersion = 4
+    BEGIN
+        exec CreateTable @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 5
+    END
+    else if @currentVersion = 5
+    BEGIN
+        exec AddCandidateKey @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 6
+    END
+    else if @currentVersion = 6
+    BEGIN
+        exec AddForeignKey @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 7
+    END
+    else if @currentVersion = 7
+    BEGIN
+        exec AddPrimaryKey @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 8
+    END",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 13:26:45.787,2019-11-17 13:26:45.787
+SchoolManagement,dbo,RollBackwards,SchoolManagement,dbo,RollBackwards,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE RollBackwards (@currentVersion INT) AS
+    print 'rolling backwards from '
+    print @currentVersion
+    if @currentVersion = 2
+    BEGIN
+        exec AddCreditsToCourses @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 1
+    END
+    else if @currentVersion = 3
+    BEGIN
+        exec ModifyCredits @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 2
+    END
+    else if @currentVersion = 4
+    BEGIN
+        exec AddDefaultConstraint @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 3
+    END
+    else if @currentVersion = 5
+    BEGIN
+        exec CreateTable @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 4
+    END
+    else if @currentVersion = 6
+    BEGIN
+        exec AddCandidateKey @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 5
+    END
+    else if @currentVersion = 7
+    BEGIN
+        exec AddForeignKey @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 6
+    END
+    else if @currentVersion = 8
+    BEGIN
+        exec AddPrimaryKey @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 7
+    END",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 13:26:48.713,2019-11-17 13:26:48.713
+SchoolManagement,dbo,GoToVersion,SchoolManagement,dbo,GoToVersion,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE GoToVersion (@targetVersion INT) AS
+    DECLARE @CURRENT_VERSION INT
+    SELECT @CURRENT_VERSION = VersionNumber FROM DatabaseVersion
+
+    WHILE @targetVersion < @CURRENT_VERSION
+    BEGIN
+        print 'rolling backwards'
+        exec RollBackwards @currentVersion =  @CURRENT_VERSION;
+        SELECT @CURRENT_VERSION = VersionNumber  FROM DatabaseVersion
+    END
+    WHILE @targetVersion > @CURRENT_VERSION
+    BEGIN
+        print 'rolling forward'
+        exec RollForward @currentVersion = @CURRENT_VERSION;
+        SELECT @CURRENT_VERSION = VersionNumber  FROM DatabaseVersion
+    END",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 13:30:09.990,2019-11-17 13:30:09.990
+SchoolManagement,dbo,AddPrimaryKey,SchoolManagement,dbo,AddPrimaryKey,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE AddPrimaryKey (@doOrUndo BIT) AS
+    IF @doOrUndo=1
+    BEGIN
+        ALTER TABLE AcademicEvent
+        ADD CONSTRAINT uniqueAcademicName PRIMARY KEY (AcademicEventName)
+    END
+    ELSE
+        ALTER TABLE AcademicEvent
+        DROP CONSTRAINT uniqueAcademicName",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 13:34:27.980,2019-11-17 13:34:27.980
+SchoolManagement,dbo,CreateTable,SchoolManagement,dbo,CreateTable,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"--version 5
+CREATE PROCEDURE CreateTable (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        CREATE TABLE AcademicEvent (
+            AcademicEventName varchar(20) NOT NULL,
+            AcademicEventDate date,
+            CoordinatorProfessorId int
+        )
+    ELSE
+        DROP TABLE AcademicEvent",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-17 13:35:31.867,2019-11-17 13:35:31.867
+SchoolManagement,dbo,TestProcedure,SchoolManagement,dbo,TestProcedure,PROCEDURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SQL,"CREATE PROCEDURE TestProcedure AS
+    select * from Department;
+    select * from Professor;
+    select * from StudentGroup;
+    select * from Student;
+    select * from Classroom;
+    select * from Course;
+    select * from Exam;
+    select * from ExamResults;
+    select * from Homework;
+    select * from Attendance;
+    select * from Course;",,,,NO,MODIFIES,,,YES,-1,NO,NO,2019-11-12 06:30:37.400,2019-11-12 06:30:37.400

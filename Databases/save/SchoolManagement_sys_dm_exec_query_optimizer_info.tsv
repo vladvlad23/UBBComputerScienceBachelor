@@ -1,0 +1,39 @@
+optimizations	269	1
+elapsed time	269	0
+final cost	269	0.19397897439864278
+trivial plan	67	1
+tasks	202	1078.3861386138615
+no plan	0	
+search 0	96	1
+search 0 time	102	0.022794117647058815
+search 0 tasks	102	1406.9901960784314
+search 1	106	1
+search 1 time	106	0.01273584905660377
+search 1 tasks	106	701.1415094339623
+search 2	0	
+search 2 time	0	
+search 2 tasks	0	
+gain stage 0 to stage 1	5	0.6668995115977102
+gain stage 1 to stage 2	0	
+timeout	9	1
+memory limit exceeded	0	
+insert stmt	0	
+delete stmt	0	
+update stmt	0	
+merge stmt	0	
+contains subquery	21	1
+unnest failed	183	1
+tables	269	5.230483271375465
+hints	3	1
+order hint	3	1
+join hint	3	1
+view reference	220	1
+remote query	0	
+maximum DOP	269	1.8438661710037174
+maximum recursion level	0	
+indexed views loaded	0	
+indexed views matched	0	
+indexed views used	0	
+indexed views updated	0	
+dynamic cursor request	0	
+fast forward cursor request	0	
