@@ -1,0 +1,2 @@
+﻿  Laboratory1.c
+e:\college\object oriented programming\laboratory1\laboratory1\laboratory1.c(50): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
