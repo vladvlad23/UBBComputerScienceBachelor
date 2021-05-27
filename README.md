@@ -4,27 +4,28 @@ Included only the projects that i still had where there was a relevant ammount o
 
 ### First semester
 
-- [Fundamentals of Programming](https://github.com/vladvlad23/FP-Homework)
-- [Computer System Architecture](https://github.com/vladvlad23/ComputerSystemsArchitecture)
+- Fundamentals of Programming
+- Computer System Architecture
 
 ### Second semester
 
-- [Object Oriented Programming](https://github.com/vladvlad23/OOP-Homework)
-
-- [Data Structures and Algorithms](https://github.com/vladvlad23/DSA-Homework)
-- [Data Structures and Algorithms Pair Project](https://github.com/vladvlad23/DSATeamWork)
-
-- [Graph Algorithms](https://github.com/vladvlad23/GraphAlgorithms)
+- Object Oriented Programming
+- Data Structures and Algorithms
+- Graph Algorithms
 
 ### Third Semester
-
-- [Databases](https://github.com/vladvlad23/DatabaseHomework)
-- [Advanced Programming methods](https://github.com/vladvlad23/AdvancedProgrammingMethods)
+- Databases
+- Advanced Programming methods
+- Functional and Logical Programming
 
 ### Fourth Semester
-- [Systems for Design and Implementation](https://github.com/vladvlad23/AdvancedProgrammingMethods) (only the final spring project is included though)
+- Systems for Design and Implementation
+- Web programming
+- Software Engineering (separate repo)
+- Artificial Intelligence
 
-- [Web programming](https://github.com/vladvlad23/UniversityWebProjects)
 
-- [Software Engineering](https://github.com/vladvlad23/SoftwareEngineering927)
-
+### Fifth Semester
+- Parallel and Distributed Programming
+- Formal Languages and Compiler Design
+- Mobile Applications
