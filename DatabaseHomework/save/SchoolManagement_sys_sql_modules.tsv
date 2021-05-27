@@ -1,0 +1,167 @@
+402100473	"CREATE PROCEDURE AddCreditsToCourses (@doOrUndo BIT) AS
+    IF @doOrUndo=1
+        ALTER TABLE Course
+        ADD ECTSNumber int;
+    ELSE
+        ALTER TABLE Course
+        DROP COLUMN ECTSNumber;"	1	1	0	0	0	0		0
+418100530	"CREATE PROCEDURE AddDefaultConstraint (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE Classroom
+        ADD CONSTRAINT featureConstraint DEFAULT NULL for ClassroomFeatures;
+    ELSE
+        ALTER TABLE Classroom
+        DROP CONSTRAINT featureConstraint;"	1	1	0	0	0	0		0
+450100644	"CREATE PROCEDURE AddForeignKey (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE AcademicEvent
+        ADD CONSTRAINT coordinatorProfessor FOREIGN KEY (CoordinatorProfessorId) REFERENCES Professor(ProfessorId)
+    ELSE
+        ALTER TABLE AcademicEvent
+        DROP CONSTRAINT coordinatorProfessor"	1	1	0	0	0	0		0
+530100929	"CREATE PROCEDURE ModifyCredits (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE Course
+        ALTER COLUMN ECTSNumber BIT
+    ELSE
+        ALTER TABLE Course
+        ALTER Column ECTSNumber INT"	1	1	0	0	0	0		0
+594101157	"--version 5
+CREATE PROCEDURE AddCandidateKey (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        ALTER TABLE AcademicEvent
+        ADD CONSTRAINT oneEventPerDay UNIQUE (AcademicEventDate)
+    ELSE
+        ALTER TABLE AcademicEvent
+        DROP CONSTRAINT oneEventPerDay"	1	1	0	0	0	0		0
+850102069	"CREATE PROCEDURE GetCurrentVersion (@version INT OUTPUT) AS 
+    SELECT @version = VersionNumber
+    FROM DatabaseVersion"	1	1	0	0	0	0		0
+962102468	"CREATE PROCEDURE RollForward (@currentVersion INT) AS
+    print 'rolling forwards from '
+    print @currentVersion
+    if @currentVersion = 1
+    BEGIN
+        exec AddCreditsToCourses @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 2
+    END
+    else if @currentVersion = 2
+    BEGIN
+        exec ModifyCredits @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 3
+    END
+    else if @currentVersion = 3
+    BEGIN
+        exec AddDefaultConstraint @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 4
+    END
+    else if @currentVersion = 4
+    BEGIN
+        exec CreateTable @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 5
+    END
+    else if @currentVersion = 5
+    BEGIN
+        exec AddCandidateKey @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 6
+    END
+    else if @currentVersion = 6
+    BEGIN
+        exec AddForeignKey @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 7
+    END
+    else if @currentVersion = 7
+    BEGIN
+        exec AddPrimaryKey @doOrUndo = 1
+        UPDATE DatabaseVersion SET VersionNumber = 8
+    END"	1	1	0	0	0	0		0
+978102525	"CREATE PROCEDURE RollBackwards (@currentVersion INT) AS
+    print 'rolling backwards from '
+    print @currentVersion
+    if @currentVersion = 2
+    BEGIN
+        exec AddCreditsToCourses @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 1
+    END
+    else if @currentVersion = 3
+    BEGIN
+        exec ModifyCredits @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 2
+    END
+    else if @currentVersion = 4
+    BEGIN
+        exec AddDefaultConstraint @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 3
+    END
+    else if @currentVersion = 5
+    BEGIN
+        exec CreateTable @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 4
+    END
+    else if @currentVersion = 6
+    BEGIN
+        exec AddCandidateKey @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 5
+    END
+    else if @currentVersion = 7
+    BEGIN
+        exec AddForeignKey @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 6
+    END
+    else if @currentVersion = 8
+    BEGIN
+        exec AddPrimaryKey @doOrUndo = 0
+        UPDATE DatabaseVersion SET VersionNumber = 7
+    END"	1	1	0	0	0	0		0
+1090102924	"CREATE PROCEDURE GoToVersion (@targetVersion INT) AS
+    DECLARE @CURRENT_VERSION INT
+    SELECT @CURRENT_VERSION = VersionNumber FROM DatabaseVersion
+
+    WHILE @targetVersion < @CURRENT_VERSION
+    BEGIN
+        print 'rolling backwards'
+        exec RollBackwards @currentVersion =  @CURRENT_VERSION;
+        SELECT @CURRENT_VERSION = VersionNumber  FROM DatabaseVersion
+    END
+    WHILE @targetVersion > @CURRENT_VERSION
+    BEGIN
+        print 'rolling forward'
+        exec RollForward @currentVersion = @CURRENT_VERSION;
+        SELECT @CURRENT_VERSION = VersionNumber  FROM DatabaseVersion
+    END"	1	1	0	0	0	0		0
+1106102981	"CREATE PROCEDURE AddPrimaryKey (@doOrUndo BIT) AS
+    IF @doOrUndo=1
+    BEGIN
+        ALTER TABLE AcademicEvent
+        ADD CONSTRAINT uniqueAcademicName PRIMARY KEY (AcademicEventName)
+    END
+    ELSE
+        ALTER TABLE AcademicEvent
+        DROP CONSTRAINT uniqueAcademicName"	1	1	0	0	0	0		0
+1122103038	"--version 5
+CREATE PROCEDURE CreateTable (@doOrUndo BIT) AS
+
+    IF @doOrUndo=1
+        CREATE TABLE AcademicEvent (
+            AcademicEventName varchar(20) NOT NULL,
+            AcademicEventDate date,
+            CoordinatorProfessorId int
+        )
+    ELSE
+        DROP TABLE AcademicEvent"	1	1	0	0	0	0		0
+1525580473	"CREATE PROCEDURE TestProcedure AS
+    select * from Department;
+    select * from Professor;
+    select * from StudentGroup;
+    select * from Student;
+    select * from Classroom;
+    select * from Course;
+    select * from Exam;
+    select * from ExamResults;
+    select * from Homework;
+    select * from Attendance;
+    select * from Course;"	1	1	0	0	0	0		0

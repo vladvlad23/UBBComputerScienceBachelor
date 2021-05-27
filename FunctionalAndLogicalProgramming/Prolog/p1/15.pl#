@@ -1,0 +1,5 @@
+%listToOddAndEven(LInput:list,LOdd:list,LEven:list).
+%listToOddAndEven(i,o,o).
+
+listToOddAndEven([],_,_).
+listToOddAndEven([H|T],LOdd,LEven):-

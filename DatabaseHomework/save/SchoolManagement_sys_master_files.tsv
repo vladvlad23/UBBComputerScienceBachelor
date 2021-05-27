@@ -1,0 +1,12 @@
+1	1		0	ROWS	1	master	/var/opt/mssql/data/master.mdf	0	ONLINE	512	-1	10	0	0	0	1	0	0													
+1	2		1	LOG	0	mastlog	/var/opt/mssql/data/mastlog.ldf	0	ONLINE	256	-1	10	0	0	0	1	0	0													
+2	1		0	ROWS	1	tempdev	/var/opt/mssql/data/tempdb.mdf	0	ONLINE	1024	-1	8192	0	0	0	0	0	0													
+2	2		1	LOG	0	templog	/var/opt/mssql/data/templog.ldf	0	ONLINE	1024	-1	8192	0	0	0	0	0	0													
+3	1		0	ROWS	1	modeldev	/var/opt/mssql/data/model.mdf	0	ONLINE	1024	-1	8192	0	0	0	0	0	0													
+3	2		1	LOG	0	modellog	/var/opt/mssql/data/modellog.ldf	0	ONLINE	1024	-1	8192	0	0	0	0	0	0													
+4	1	67A3BDC6-8EE4-443C-8BDE-D04AF2A6A15A	0	ROWS	1	MSDBData	/var/opt/mssql/data/MSDBData.mdf	0	ONLINE	1712	-1	10	0	0	0	1	0	0													
+4	2	9688FA64-6E3D-4EC7-BF34-4C6D32E2CE0A	1	LOG	0	MSDBLog	/var/opt/mssql/data/MSDBLog.ldf	0	ONLINE	96	268435456	10	0	0	0	1	0	0													
+5	1	6A9FE681-9D4F-49EE-B79A-76ED75138624	0	ROWS	1	TestDB	/var/opt/mssql/data/TestDB.mdf	0	ONLINE	1024	-1	8192	0	0	0	0	0	0													
+5	2	B98BCA61-DD44-414C-9B1E-694A05BEB041	1	LOG	0	TestDB_log	/var/opt/mssql/data/TestDB_log.ldf	0	ONLINE	1024	268435456	8192	0	0	0	0	0	0													
+6	1	EA0DF10B-7F49-472F-A55E-53AB775008CF	0	ROWS	1	SchoolManagement	/var/opt/mssql/data/SchoolManagement.mdf	0	ONLINE	1024	-1	8192	0	0	0	0	0	0													
+6	2	5C8A8CDC-5853-4A1F-B61D-463EDC914943	1	LOG	0	SchoolManagement_log	/var/opt/mssql/data/SchoolManagement_log.ldf	0	ONLINE	1024	268435456	8192	0	0	0	0	0	0													

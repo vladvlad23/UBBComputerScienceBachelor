@@ -1,0 +1,28 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13 00000000 0600                        a dw 6
+    14 00000002 1E00                        b dw 30
+    15 00000004 0500                        c dw 5
+    16                                  
+    17                                  ; our code starts here
+    18                                  segment code use32 class=code
+    19                                      start:
+    20 00000000 66A1[02000000]                  mov AX, [b]
+    21 00000006 668B1D[02000000]                mov BX, [b]
+    22 0000000D 66031D[04000000]                add BX, [c]
+    23 00000014 6629D8                          sub AX,BX
+    24 00000017 660305[00000000]                add AX,[a]
+    25                                      
+    26                                          ; exit(0)
+    27 0000001E 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    28 00000020 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

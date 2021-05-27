@@ -1,0 +1,25 @@
+
+€
+java:S1192"^Define a constant instead of duplicating this literal "************All ok***********" 4 times.(Ãõù«úÿÿÿÿ8ûà“Êì.
+;
+java:S2119a"Save and re-use this "Random".(ºï½ë8¦šœì.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ûà“Êì.
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Éò¸›8¨Ö…Êì.
+Z	java:S106}"9Replace this use of System.out or System.err by a logger.(Ê‚ê ıÿÿÿÿ8ÙŠìÈì.
+Z	java:S106n"9Replace this use of System.out or System.err by a logger.(’Œ™£ıÿÿÿÿ8‚¯æÈì.
+c
+java:S2142'"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÀÉ“Êì.
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(Ãõù«úÿÿÿÿ8¨Ö…Êì.
+]	java:S125u"<This block of commented-out lines of code should be removed.(¡€–®ùÿÿÿÿ8’ù­Êì.
+Z	java:S106|"9Replace this use of System.out or System.err by a logger.(ì„«àüÿÿÿÿ8¥£êÈì.
+;
+java:S2119P"Save and re-use this "Random".(ºï½ë8ŠÎ›ì.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(Ãõù«úÿÿÿÿ8¨Ö…Êì.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ãõù«úÿÿÿÿ8ûà“Êì.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Ãõù«úÿÿÿÿ8ÀÉ“Êì.
+c
+java:S2142C"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¨Ö…Êì.
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(‡«¬ã8¨Ö…Êì.
+]	java:S125"<This block of commented-out lines of code should be removed.(Šê½åşÿÿÿÿ8Ğµ­Äí.
+]	java:S125"<This block of commented-out lines of code should be removed.(½óÌ©ıÿÿÿÿ8Ğµ­Äí.

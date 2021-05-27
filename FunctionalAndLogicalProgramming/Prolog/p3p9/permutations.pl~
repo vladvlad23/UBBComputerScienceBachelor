@@ -1,0 +1,36 @@
+
+deleteFromList(E,[Head|Tail],R):-
+    Head = E,
+    R = Tail.
+deleteFromList(E,[Head|Tail],[Head2|Tail2]):-
+    Head = Head2,
+    deleteFromList(E,Tail,Tail2).
+
+deleteFromList2(_,[],[]).
+deleteFromList2(E,[Head|Tail],R):-
+    Head =:= E,
+    R = Tail.
+deleteFromList2(E,[Head|Tail],R):-
+    Head =\= E,
+    deleteFromList2(E,Tail,R1),
+    R = [Head|R1].
+
+deleteFr(X,[X|T],T).
+deleteFr(X,[H|T],[H|NT]):-deleteFr(X,T,NT).
+
+perm(List,[H|Perm]):-
+    deleteFr(H,List,Rest),
+    perm(Rest,Perm).
+
+perm([],[]).
+
+inserare([], E, [E]).
+inserare([H|T], E, [E,H|T]).
+inserare([H|T], E, [H|R]) :-
+         inserare(T, E, R).
+
+permutari([], []).
+permutari([H|T], R) :-
+    permutari(T, RP),
+    inserare(RP, H, R).
+

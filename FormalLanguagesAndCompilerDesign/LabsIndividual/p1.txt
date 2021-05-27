@@ -1,0 +1,14 @@
+var a;
+var b;
+var c;
+
+a is 25;
+b is 15;
+c is 25 mod 15;
+while (c not equal 0)
+{
+	a is b;
+	b is c;
+	c is a mod b;
+}	
+print c

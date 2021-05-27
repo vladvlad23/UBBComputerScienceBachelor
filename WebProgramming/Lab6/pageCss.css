@@ -1,0 +1,51 @@
+body {
+    padding: 0px;    
+}
+
+#container {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  /* context that goes out of bonds is cut*/
+}
+
+.screen {
+    position: absolute; /* relative to nearest ancestor */
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+    bottom: 300%; /*make it go real high*/
+}
+
+p {
+    font-size: 10px;
+}
+
+img {
+    height: 90%;
+    width: 100%;
+}
+
+#firstScreen {
+    background-color: green;
+    bottom: 0%;
+}
+
+#secondScreen {
+    background-color: yellow;
+}
+
+#thirdScreen {
+    background-color: red;
+}
+
+#fourthScreen {
+    background-color: orange;
+}
+
+#fifthScreen {
+    background-color: blue;
+}

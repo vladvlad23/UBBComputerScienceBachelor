@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/Graph.h
+map
+-
+vector
+-
+utility
+-
+
+E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/UserInterface.cpp
+UserInterface.h
+E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/UserInterface.h
+
+E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/UserInterface.h
+Graph.h
+E:/College/First Year/Second Semester/GraphAlgorithms/PracticalWork1-CPPBonus/Graph.h
+algorithm
+-
+iostream
+-
+

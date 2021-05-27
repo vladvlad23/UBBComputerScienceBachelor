@@ -1,0 +1,2 @@
+1	EA0DF10B-7F49-472F-A55E-53AB775008CF	0	ROWS	1	SchoolManagement	/var/opt/mssql/data/SchoolManagement.mdf	0	ONLINE	1024	-1	8192	0	0	0	0	0	0												
+2	5C8A8CDC-5853-4A1F-B61D-463EDC914943	1	LOG	0	SchoolManagement_log	/var/opt/mssql/data/SchoolManagement_log.ldf	0	ONLINE	1024	268435456	8192	0	0	0	0	0	0												

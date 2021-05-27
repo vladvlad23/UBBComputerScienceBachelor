@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="pageCss.css">
+  <title>Titlu pagina</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script> 
+      $(document).ready(function() {
+        $('.screen').click(function() {
+
+        $(this).animate({
+            bottom: '-100%'
+        }, 1000, function() {
+            $(this).css('bottom', '150%');
+            $(this).appendTo('#container');
+        });
+        $(this).next().animate({
+            bottom: '0%'
+        }, 1000);
+        });
+      });
+  </script>
+</head>
+<body>
+<div id="container">
+  <div class="screen" id="firstScreen">
+    <p>This is a simple fox</p>
+    <img src="curiousFox.jpg">
+  </div>
+  <div class="screen" id="secondScreen">
+      <p>This is a fennec fox</p>
+      <img src="fennecFox.jpg">
+  </div>
+  <div class="screen" id="thirdScreen">
+      <p>This is a fox in the sun</p>
+      <img src="Sunny-Fox.jpg">
+  </div>
+  <div class="screen" id="fourthScreen">
+      <p>This is an arcticFox</p>
+      <img src="arcticFox.jpg">
+  </div>
+</div>
+
+</body>
+
+</html>

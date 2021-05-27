@@ -1,0 +1,4 @@
+send+more=money
+take+a+cake=kate
+eat+that=apple
+never-drive=ride

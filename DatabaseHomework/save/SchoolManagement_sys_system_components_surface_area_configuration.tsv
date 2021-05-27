@@ -1,0 +1,85 @@
+SMO and DMO XPs	mssqlsystemresource	sys	xp_instance_regread	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_instance_regread	0	X 	EXTENDED_STORED_PROCEDURE
+xp_cmdshell	mssqlsystemresource	sys	xp_cmdshell	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_get_tape_devices	1	X 	EXTENDED_STORED_PROCEDURE
+Ole Automation Procedures	mssqlsystemresource	sys	sp_OAGetProperty	0	X 	EXTENDED_STORED_PROCEDURE
+Ole Automation Procedures	mssqlsystemresource	sys	sp_OACreate	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_instance_regdeletevalue	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_instance_regdeletevalue	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_servicecontrol	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	sp_getVolumeFreeSpace	1	P 	SQL_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_instance_regaddmultistring	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_getnetname	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_getnetname	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_logininfo	1	P 	SQL_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_instance_regenumvalues	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_regdeletevalue	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_enum_oledb_providers	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_instance_regwrite	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_instance_regwrite	0	X 	EXTENDED_STORED_PROCEDURE
+Database Mail XPs	mssqlsystemresource	sys	xp_sysmail_activate	0	X 	EXTENDED_STORED_PROCEDURE
+Ole Automation Procedures	mssqlsystemresource	sys	sp_OADestroy	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_regremovemultistring	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_dirtree	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_regwrite	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_regwrite	0	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_sqlagent_is_starting	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_regaddmultistring	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_regdeletekey	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_sqlagent_enum_jobs	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_enumerrorlogs	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	sp_getProcessorUsage	1	P 	SQL_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_msver	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_msver	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_sqlagent_notify	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_sqlagent_notify	0	X 	EXTENDED_STORED_PROCEDURE
+Ole Automation Procedures	mssqlsystemresource	sys	sp_OAStop	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_enumgroups	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_fileexist	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	sp_PostAgentInfo	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_fixeddrives	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_sqlagent_monitor	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_sqlagent_monitor	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_readerrorlog	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_passAgentInfo	0	X 	EXTENDED_STORED_PROCEDURE
+Ole Automation Procedures	mssqlsystemresource	sys	sp_OAGetErrorInfo	0	X 	EXTENDED_STORED_PROCEDURE
+Ole Automation Procedures	mssqlsystemresource	sys	sp_OAMethod	0	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_msx_enlist	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_availablemedia	1	X 	EXTENDED_STORED_PROCEDURE
+Database Mail XPs	mssqlsystemresource	sys	xp_sysmail_attachment_load	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_prop_oledb_provider	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_instance_regremovemultistring	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_sqlagent_param	0	X 	EXTENDED_STORED_PROCEDURE
+Ole Automation Procedures	mssqlsystemresource	sys	sp_OASetProperty	0	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_subdirs	1	X 	EXTENDED_STORED_PROCEDURE
+SMO and DMO XPs	mssqlsystemresource	sys	xp_regread	1	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	mssqlsystemresource	sys	xp_regread	0	X 	EXTENDED_STORED_PROCEDURE
+Database Mail XPs	mssqlsystemresource	sys	xp_sysmail_format_query	0	X 	EXTENDED_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_set_local_time	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_update_operator	0	P 	SQL_STORED_PROCEDURE
+Database Mail XPs	msdb	dbo	sysmail_start_sp	0	P 	SQL_STORED_PROCEDURE
+Database Mail XPs	msdb	dbo	sysmail_stop_sp	0	P 	SQL_STORED_PROCEDURE
+Database Mail XPs	msdb	dbo	sysmail_help_status_sp	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_sqlagent_get_startup_info	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_sqlagent_has_server_access	0	P 	SQL_STORED_PROCEDURE
+Database Mail XPs	msdb	dbo	sp_validate_user	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_sqlagent_notify	0	P 	SQL_STORED_PROCEDURE
+Database Mail XPs	msdb	dbo	sp_send_dbmail	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_is_sqlagent_starting	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_downloaded_row_limiter	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_post_msx_operation	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_verify_alert	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_generate_server_description	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_msx_set_account	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_msx_get_account	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_msx_defect	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_msx_enlist	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_enlist_tsx	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_get_sqlagent_properties	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_set_sqlagent_properties	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_verify_subsystem	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_add_maintenance_plan_job	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_get_schedule_description	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_verify_job	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_get_composite_job_info	0	P 	SQL_STORED_PROCEDURE
+Agent XPs	msdb	dbo	sp_jobhistory_row_limiter	0	P 	SQL_STORED_PROCEDURE

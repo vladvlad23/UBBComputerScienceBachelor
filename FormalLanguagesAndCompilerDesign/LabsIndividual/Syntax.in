@@ -1,0 +1,39 @@
+Syntax: predefined tokens are in caps or when not possible, "" 
+program ::= {declarationStatement} compoundStatement
+
+declarationStatement ::= IDENTIFIIER type
+
+arrayDeclaration ::= ARRAY "["nr" "]" type
+
+number:= "+" nr | "-" nr | nr
+ 
+nr := digit{nr}
+
+digit ::= "0" | ... | "9"
+	  
+type ::= INT  | CHAR | 
+
+compoundStatement ::= "{" statamentList "}"
+
+statamentList ::= statament | statament ; statamentList
+
+statement ::= simpleStatement | complexStatement
+
+simpleStatement ::= assignStatement | ioStatement | declarationStatement ;
+
+assignStatement ::= identifier IS expression
+
+QUESTION WHY expression vs term :expression ::= expression "+" term | expression "-" term | term
+term 
+
+ioStatement ::= READ "(" identifier ")" | WRITE "(" identifier ")"
+
+complexStatement ::= ifStatement | whileStatement | compoundStatement
+
+ifStatement ::= "if" "(" condition ")" compoundStatement [else compoundStatement]
+
+whileStatement ::= WHILE "(" condition ")" compoundStatement
+
+condition ::= expression RELATION expression
+relation ::= ">" | "<=" | EQUAL | ">=" | ">"
+

@@ -1,0 +1,14 @@
+int array 20 a;
+var n;
+var i;
+var p;
+
+n is 10;
+i is 0;
+p is 1;
+while (i < n)
+{
+	p is p * a [ i ] ;
+	i is i + 1;
+}
+print p;

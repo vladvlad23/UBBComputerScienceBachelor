@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="myCss.css">
+    </head>
+    <body>
+        <table id="tableToBeSorted">
+            <tr>
+                <th onclick="sortTable(0)">Country</th>
+                <th onclick="sortTable(1)">Capital</th>
+                <th onclick="sortTable(2)">Anthem</th>
+            </tr>
+            <tr>
+                <td>Romania</td>
+                <td>Bucharest</td>
+                <td>Desteapta-te, Romane!</td>
+            </tr>
+            <tr>
+                <td>Spain</td>
+                <td>Madrid</td>
+                <td>La Marcha Real</td>
+            </tr>
+            <tr>
+                <td>Italy</td>
+                <td>Rome</td>
+                <td>Il canto degli Italy</td>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>WashingtonDC</td>
+                <td>The Star-Spangled Banner</td>
+            </tr>
+            <tr>
+                <td>United Kingdom</td>
+                <td>London</td>
+                <td>God Save The Queen</td>
+            </tr>
+        </table>
+        <script>
+                function sortTable(n) {
+                    var table, rows, i, x, y, shouldSwitch, asc, switchcount = 0;
+                    table = document.getElementById("tableToBeSorted");
+                  // Set the sorting direction to ascending:
+                    asc = 1
+                    rows = table.rows;
+                    for (i=1; i<(rows.length-1); i++){ 
+                        //remember to say that we can do it alphabetically by "localeCompare" function....
+                        if (rows[i].getElementsByTagName("TD")[n].innerHTML.toLowerCase() <
+                        rows[i+1].getElementsByTagName("TD")[n].innerHTML.toLowerCase()){
+                            asc *= -1;
+                            break;
+                        }
+                        else{
+                            break;
+                        }
+                    }
+                    for (i = 1; i < (rows.length -1 ); i++) {
+                        for (j= i+1; j<(rows.length); j++){
+                            first = rows[i].getElementsByTagName("TD")[n];
+                            second = rows[j].getElementsByTagName("TD")[n];
+
+                            if (first.innerHTML.toLowerCase() > second.innerHTML.toLowerCase()){
+                                    if(asc == 1){
+                                        rows[i].parentNode.insertBefore(rows[j], rows[i]);
+                                        rows[i].parentNode.insertBefore(rows[i+1],rows[j+1]);
+                                    }
+                            }
+                            else if(first.innerHTML.toLowerCase() < second.innerHTML.toLowerCase()){
+                                if(asc == -1) {
+                                        rows[i].parentNode.insertBefore(rows[j], rows[i]);
+                                }
+                            }
+                        }
+                    }
+                }
+        </script>
+                <!-- <script>
+                        function sortTable(n) {
+                          var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+                          table = document.getElementById("tableToBeSorted");
+                          switching = true;
+                          // Set the sorting direction to ascending:
+                          dir = "asc";
+                          /* Make a loop that will continue until
+                          no switching has been done: */
+                          while (switching) {
+                            // Start by saying: no switching is done:
+                            switching = false;
+                            rows = table.rows;
+                            /* Loop through all table rows (except the
+                            first, which contains table headers): */
+                            for (i = 1; i < (rows.length - 1); i++) {
+                              // Start by saying there should be no switching:
+                              shouldSwitch = false;
+                              /* Get the two elements you want to compare,
+                              one from current row and one from the next: */
+                              x = rows[i].getElementsByTagName("TD")[n];
+                              y = rows[i + 1].getElementsByTagName("TD")[n];
+                              /* Check if the two rows should switch place,
+                              based on the direction, asc or desc: */
+                              if (dir == "asc") {
+                                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                                  // If so, mark as a switch and break the loop:
+                                  shouldSwitch = true;
+                                  break;
+                                }
+                              } else if (dir == "desc") {
+                                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                                  // If so, mark as a switch and break the loop:
+                                  shouldSwitch = true;
+                                  break;
+                                }
+                              }
+                            }
+                            if (shouldSwitch) {
+                              /* If a switch has been marked, make the switch
+                              and mark that a switch has been done: */
+                              rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                              switching = true;
+                              // Each time a switch is done, increase this count by 1:
+                              switchcount ++;
+                            } else {
+                              /* If no switching has been done AND the direction is "asc",
+                              set the direction to "desc" and run the while loop again. */
+                              if (switchcount == 0 && dir == "asc") {
+                                dir = "desc";
+                                switching = true;
+                              }
+                            }
+                          }
+                        }
+                </script> -->
+                <!-- <script>
+                    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+                    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+                        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+                        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+                    // do the work...
+                    document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+                        const table = th.closest('table');
+                        Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+                            .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+                            .forEach(tr => table.appendChild(tr) );
+                    })));
+                </script> -->
+    </body>
+</html>

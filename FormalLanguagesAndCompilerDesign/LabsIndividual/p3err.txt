@@ -1,0 +1,7 @@
+@@int a; //@@int not valid => lexical error
+var a;
+var b;
+
+b is 10;
+a is" b; // start of string not identified = >lexical error
+a is b;

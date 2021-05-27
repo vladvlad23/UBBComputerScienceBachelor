@@ -1,0 +1,16 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ¥‘ô
+N	java:S106("9Replace this use of System.out or System.err by a logger.(¡‡¡…
+c
+java:S1192"MDefine a constant instead of duplicating this literal "Time spent: " 4 times.( ¥‘ô
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(¡ñşùÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.( ¥‘ô
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¤Ù¸¶øÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.( ¥‘ô
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(şô ñ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ö¢ı
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ¥‘ô
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(­‚€÷
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(íŠ¿Ñøÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(‡£±°üÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(¡Óëá

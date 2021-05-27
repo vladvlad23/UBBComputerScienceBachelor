@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>User management</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function(){
+			$('#insertForm').submit(function(e) {
+				e.preventDefault();
+				url = "insertData.php"
+				formData = $(this).serializeArray();
+				$.post(url,formData,function(data){
+					alert("success"); 
+				});
+			});
+			$('#updateForm').submit(function(e) {
+				e.preventDefault();
+				url = "updateData.php"
+				formData = $(this).serializeArray();
+				$.post(url,formData);
+			});
+		});
+	</script>
+</head>
+<body>
+	<form id="insertForm" method=POST>
+		Name: <input type="text" name="name"><br>
+		Username: <input type="text" name="username"><br>
+		Password <input type="password" name="password"><br>
+		Age: <input type="number" min="0" step="1" name="age"><br>
+		Role: 
+		<select name="role">
+			<option value="developer">Developer</option>
+			<option value="client">Client</option>
+			<option value="intern">Intern</option>
+			<option value="senior">Senior</option>
+		</select><br>
+		Profile: <input type="text" name="profile"><br>
+		Email: <input type="text" name="email"><br>
+		Webpage: <input type="text" name="webpage"><br>
+		<input type=submit value="Insert record"/>
+	</form> 
+	
+	<h1> Update Data</h1>
+	
+	<form id="updateForm" method=POST>
+	Id: <input type="number" min="1" step="1" name="id"><br>
+	Name: <input type="text" name="name"><br>
+	Username: <input type="text" name="username"><br>
+	Password <input type="password" name="password"><br>
+	Age: <input type="number" min="0" step="1" name="age"><br>
+	Role: 
+	<select name="role">
+		<option value="developer">Developer</option>
+		<option value="client">Client</option>
+		<option value="intern">Intern</option>
+		<option value="senior">Senior</option>
+	</select><br>
+	Profile: <input type="text" name="profile"><br>
+	Email: <input type="text" name="email"><br>
+	Webpage: <input type="text" name="webpage"><br>
+	<input type=submit value="Insert record"/>
+	
+	<h1> Remove user </h1>
+	
+	
+	
+	
+	<h1> Search user </h1>
+	<h3> Search by role </h3>
+		
+	<h3> Search by name </h3>
+	
+	
+</form> 
+	
+</body>
+</html>

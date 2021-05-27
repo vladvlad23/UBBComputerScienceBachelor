@@ -1,0 +1,149 @@
+body {
+    margin:0;
+    size:200%;
+    color:#e6e3b0;
+}
+
+
+#navBar {
+    background: #535a66;
+    overflow: auto;
+    margin:0;
+}
+
+
+.icon {
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin: 10px;
+    float:left
+    /* Other styles here */
+}
+
+#searchDiv{
+    background: #8d9196;
+    border: thick;
+    border-radius: 20px;
+    /*overflow: hidden;*/
+}
+
+
+#searchBar {
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding: 1%;
+    margin-left: 0px;
+    border-radius: 20px;
+    background: inherit;
+
+
+}
+
+#tryOracleButton {
+    background:inherit;
+    justify-items: center;
+    align-items:center;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border:0;
+}
+
+
+#oracleIcon {
+    background-image:url("images/[www.oracle.com][977]favicon-32.png");
+}
+
+#optionsIcon {
+    background-image:url("images/options.png");
+}
+
+#searchIcon {
+    background-image:url("images/search-magnifier-tool.png");
+    margin-right:0px;
+}
+
+#profileIcon {
+    background-image:url("images/profileGuy.png");
+    filter: inherit;
+    margin-left:10px;
+}
+
+#detailsTitle {
+    background:black;
+    height:70px;
+    justify-items: center;
+    align-items:center;
+    display:flex;
+    margin: 0;
+}
+
+#mainPicture {
+    background-image: url('images/cloud.svg');
+	background-position:center;
+	background-repeat:no-repeat; 
+    margin:0;
+	height:150px;
+	width:100%;
+}
+
+#mainDiv {
+    background-color:#535a66;
+    margin:0;
+}
+
+#languageOfPossibilitiesText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#poweringInnovation {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    margin: 20px;
+}
+
+#bigWhiteButton{
+    width:50%;
+    border-radius:5px;
+    margin-left:20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#overviewAndTechnicalDetails {
+    background:white;
+    height:70px;
+    justify-items: center;
+    align-items:center;
+    display:flex;
+    margin: 0;
+}
+
+#viewAccounts {
+    margin-bottom: 0px;
+    float:left;
+    color:white;
+}
+
+#tryOracleCloud {
+    float:left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.whiteButton{
+    margin: 20px;
+}
+

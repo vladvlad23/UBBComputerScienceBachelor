@@ -1,0 +1,14 @@
+SchoolManagement,dbo,dbo,,,iso_1
+SchoolManagement,guest,guest,,,iso_1
+SchoolManagement,INFORMATION_SCHEMA,INFORMATION_SCHEMA,,,iso_1
+SchoolManagement,sys,sys,,,iso_1
+SchoolManagement,databaseSchema,dbo,,,iso_1
+SchoolManagement,db_owner,db_owner,,,iso_1
+SchoolManagement,db_accessadmin,db_accessadmin,,,iso_1
+SchoolManagement,db_securityadmin,db_securityadmin,,,iso_1
+SchoolManagement,db_ddladmin,db_ddladmin,,,iso_1
+SchoolManagement,db_backupoperator,db_backupoperator,,,iso_1
+SchoolManagement,db_datareader,db_datareader,,,iso_1
+SchoolManagement,db_datawriter,db_datawriter,,,iso_1
+SchoolManagement,db_denydatareader,db_denydatareader,,,iso_1
+SchoolManagement,db_denydatawriter,db_denydatawriter,,,iso_1

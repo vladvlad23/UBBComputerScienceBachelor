@@ -1,0 +1,39 @@
+Alphabet: 
+1. upper (A-Z) and lower case letters(a-z)
+2. decimal digits
+
+Operators: + - * div mod equal not > < <= >=
+Separators:  {} () ; space
+Reserved Words:
+- var
+- print
+- while
+- if
+- int
+- read
+- array 
+- constant
+- else
+- char
+
+Identifiers:
+Identifiers: sequence of letters
+identifier ::= letter | letter{letter}
+letter ::= "A" | "B" | . ..| "Z"
+
+Constants:
+1. Integer rule:
+      number:= "+" nr | "-" nr | nr
+      nr := digit{nr}
+	  digit ::= "0" | ... | "9"
+	  
+2. Character: 
+      character ::= "letter" | "digit"
+	  
+3. String:
+      string ::= "character" | String
+      string ::= " "letter"|"digit" | "letter" String" | "digit" String
+
+
+
+

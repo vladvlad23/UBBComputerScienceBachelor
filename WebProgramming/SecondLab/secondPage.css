@@ -1,0 +1,29 @@
+.mainDiv {
+  clear: both;
+}
+.rainbow1 {
+    background: 
+    /* So here's how this works: 
+     * We take each line and progressively increase their level of incline and
+     * their thickness. As such it is true i don't make a rainbow per se, 
+     * but rather a series of lines which seem to be falling
+     * The transparent tag makes the transition between colors smoother
+     * Maybe by experimenting with the percentages there i can make it look more realistic
+     * However, it still looks like a rainbow as it is and the result seems oki
+     * */
+      linear-gradient(75deg, red 5%, transparent 7%), 
+      linear-gradient(70deg, orange 10%, transparent 12%),
+      linear-gradient(60deg, yellow 15%, transparent 15%), 
+      linear-gradient(50deg, green 20%, transparent 18%);
+    width: 70%;
+    float: left;
+    height: 200px;
+}
+.rainbow2 {
+    background: 
+      linear-gradient(45deg, blue 25%, transparent 22%), 
+      linear-gradient(35deg, indigo 30%, transparent 28%), 
+      linear-gradient(30deg, violet 35%, transparent 33%);
+    width: 70%;
+    height: 200px;
+}

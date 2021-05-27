@@ -1,0 +1,4 @@
+_S
+a b c
+_S
+_S->a _S b _S|a _S|c

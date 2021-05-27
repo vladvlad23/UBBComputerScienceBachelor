@@ -1,0 +1,119 @@
+0x0000000C00240000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,sqlservr.exe
+0x0000000C00050000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,NT Layer DLL,ntdll.dll
+0x0000000C02630000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows NT BASE API Client DLL,KERNEL32.DLL
+0x0000000C02AC0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows NT BASE API Client DLL,KERNELBASE.dll
+0x0000000C02730000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Net Win32 API DLL,NETAPI32.dll
+0x0000000C02750000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows Performance Data Helper DLL,pdh.dll
+0x0000000C027A0000,,,,,,,,,,,ADVAPI32.dll
+0x0000000C02F10000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft OLE for Windows,ole32.dll
+0x0000000C03070000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQLOS Hosting DLL,SQLOS.dll
+0x0000000C03090000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,sqlmin.dll
+0x0000000C062A0000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,sqllang.dll
+0x0000000C08A40000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,sqlTsEs.dll
+0x0000000C09380000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,sqldk.dll
+0x0000000C09890000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Open Data Services DLL,opends60.dll
+0x0000000C098B0000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,qds.dll
+0x0000000C099F0000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,svl.dll
+0x0000000C09A30000,12.0:40649.5,12.0:40649.5,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft® C Runtime Library,MSVCP120.dll
+0x0000000C09AE0000,12.0:40649.5,12.0:40649.5,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft® C Runtime Library,MSVCR120.dll
+0x0000000C09BD0000,7.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows NT CRT DLL,msvcrt.dll
+0x0000000C09C70000,,,,,,,,,,,RPCRT4.dll
+0x0000000C09C90000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Host for SCM/SDDL/LSA Lookup APIs,sechost.dll
+0x000000006AE00000,10.0:14388.19,10.0:14388.19,0,0,0,0,0,67699888,Microsoft Corporation,User-mode Kernel,sqlpal.dll
+0x0000000C09CF0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft COM for Windows,combase.dll
+0x0000000C0A020000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft® C Runtime Library,ucrtbase.dll
+0x0000000C0A120000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,GDI Client DLL,GDI32.dll
+0x0000000C0A150000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Multi-User Windows USER API Client DLL,USER32.dll
+0x0000000C0A2F0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Crypto API32,CRYPT32.dll
+0x0000000C0A4E0000,,,,,,,,,,,Secur32.dll
+0x0000000C0A4F0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows Socket 2.0 32-Bit DLL,WS2_32.dll
+0x0000000C0A560000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows HTTP Services,WINHTTP.dll
+0x0000000C0A640000,2001.12:10941.16384,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft Distributed Transaction Coordinator Helper APIs DLL,XOLEHLP.dll
+0x0000000C0A660000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,OLEAUT32.DLL,OLEAUT32.dll
+0x0000000C0A730000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,,,ODBC32.dll
+0x0000000C0A7F0000,2019.150:2000.37,15.0:2000.37,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Security Forwarder - 64 Bit,secforwarder.dll
+0x0000000C0A810000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Userenv,USERENV.dll
+0x0000000C0A840000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Authorization Framework,AUTHZ.dll
+0x0000000C0A890000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft Trust Verification APIs,WINTRUST.dll
+0x0000000C0A8F0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,,,XmlLite.dll
+0x0000000C0A930000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,DHCP Client Service,dhcpcsvc.DLL
+0x0000000C0A950000,11.0:17134.1,11.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Internet Extensions for Win32,WININET.dll
+0x0000000C0ACA0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,MCI API DLL,WINMM.dll
+0x0000000C0ACD0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows Cryptographic Primitives Library,bcryptPrimitives.dll
+0x0000000C0AD50000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,GDI Client DLL,gdi32full.dll
+0x0000000C0AEF0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Win32u,win32u.dll
+0x0000000C0AF10000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,ASN.1 Runtime APIs,MSASN1.dll
+0x0000000C0AF30000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft® C Runtime Library,msvcp_win.dll
+0x0000000C0AFD0000,14.0:23026.0,14.0:23026.0,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft® C Runtime Library,VCRUNTIME140.dll
+0x0000000C0AFF0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,User Profile Basic API,profapi.dll
+0x0000000C0B010000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,NSI User-mode interface DLL,NSI.dll
+0x0000000C0B020000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Base Multimedia Extension API DLL,WINMMBASE.dll
+0x0000000C0B050000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Net Win32 API Helpers DLL,NETUTILS.DLL
+0x0000000C0B060000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Remote Procedure Call Runtime,rpcrt4_NT.DLL
+0x0000000C0B190000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Data Protection API,DPAPI.DLL
+0x0000000C0B1A0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Configuration Manager DLL,cfgmgr32.dll
+0x0000000C0B1F0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Advanced Windows 32 Base API,advapi32_NT.DLL
+0x0000000C0B2A0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Base cryptographic API DLL,CRYPTBASE.DLL
+0x0000000C0B2B0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Security Accounts Manager Client DLL,SAMCLI.DLL
+0x0000000C0B2D0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Security Support Provider Interface,secur32_NT.DLL
+0x0000000C0B2E0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Security Support Provider Interface,SSPICLI.DLL
+0x0000000C0B310000,10.0:14388.19,10.0:14388.19,0,0,0,0,0,67699888,Microsoft Corporation,Security API Library,securityapi.DLL
+0x0000000C0B370000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows Cryptographic Primitives Library,bcrypt.dll
+0x0000000C0B3A0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Net Logon Client DLL,LOGONCLI.DLL
+0x0000000C0B430000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Process Status Helper,psapi.dll
+0x0000000C0B480000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,AppModel API Host,kernel.appcore.dll
+0x0000000C0B4B0000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Instance API DLL,instapi140.dll
+0x0000000C0B4E0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Cryptographic Service Provider API,CRYPTSP.dll
+0x0000000C0B500000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft Enhanced Cryptographic Provider,rsaenh.dll
+0x0000000C0D950000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows NT Image Helper,imagehlp.dll
+0x0000000C0DA80000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Group Policy Client API,gpapi.dll
+0x0000000C0DAB0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Crypto Network Related API,cryptnet.dll
+0x0000000C0DB30000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Workstation Service Client DLL,wkscli.dll
+0x0000000C0DB50000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Offline Files Win32 API,cscapi.dll
+0x0000000C0DD70000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Event Messages DLL,sqlevn70.rll
+0x0000000C1C190000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,Virtual Device Interface for BACKUP/RESTORE,SQLVDI.DLL
+0x0000000C1C1E0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Version Checking and File Installation Libraries,VERSION.dll
+0x0000000C1C630000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,hkruntime.dll
+0x0000000C1C920000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,hkcompile.dll
+0x0000000C1CAA0000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Windows NT - 64 Bit,hkengine.dll
+0x0000000C1D1C0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows Image Helper,dbghelp.dll
+0x0000000C1D390000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Shell Light-weight Utility Library,SHLWAPI.dll
+0x0000000C1D3F0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows NCrypt Router,ncrypt.dll
+0x0000000C1D420000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft ASN.1 API,NTASN1.dll
+0x0000000C1D460000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft Authentication Package v1.0,msv1_0.DLL
+0x0000000C1D4E0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,NTLM Shared Functionality,NtlmShared.dll
+0x0000000C1D4F0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Cryptography Manager,cryptdll.dll
+0x0000000C1D560000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Kerberos Security Package,kerberos.DLL
+0x0000000C1D650000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,TLS / SSL Security Provider,schannel.DLL
+0x0000000C1D510000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Security Support Provider Interface,SECURITY.DLL
+0x0000000C1D6D0000,10.0:17763.1,10.0:17763.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft .NET Runtime Execution Engine,MSCOREE.DLL
+0x0000000C1D780000,4.7:3190.0,4.0:30319.0,0,0,0,1,0,67699888,Microsoft Corporation,Microsoft .NET Runtime Execution Engine,mscoreei.dll
+0x0000000C1D850000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Server Spatial Library,SqlServerSpatial140.dll
+0x0000000C1D910000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Cluster API Library,CLUSAPI.DLL
+0x0000000C1D530000,10.0:14388.19,10.0:14388.19,0,0,0,0,0,67699888,Microsoft Corporation,DNS API Library,DNSAPI.dll
+0x0000000C1D820000,10.0:14388.19,10.0:14388.19,0,0,0,0,0,67699888,Microsoft Corporation,User-mode Kernel System Call Library,DkDll.dll
+0x0000000C1DA10000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft Cluster Resource Utility DLL,RESUTILS.DLL
+0x0000000C1F370000,2001.12:10941.16384,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,COM+ Configuration Catalog,clbcatq.dll
+0x0000000C1F430000,8.110:17134.1,8.110:17134.1,0,0,0,0,0,67699888,,,msxml3.dll
+0x0000000C1FB10000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,SAM Library DLL,SAMLIB.dll
+0x0000000C1FB40000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,BatchParser,BatchParser.dll
+0x0000000C1FB70000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Server Service Client DLL,SRVCLI.DLL
+0x0000000C243B0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft Windows Sockets 2.0 Service Provider,mswsock.dll
+0x0000000C27280000,2011.110:7462.6,11.0:7462.6,0,0,0,0,0,67699940,Microsoft Corporation,Microsoft SQL Server Native Client 11.0,sqlncli11.dll
+0x0000000C0D810000,10.0:40219.1,10.0:40219.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft® C Runtime Library,MSVCR100.dll
+0x0000000C275E0000,5.82:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Common Controls Library,COMCTL32.dll
+0x0000000C27690000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Common Dialogs DLL,COMDLG32.dll
+0x0000000C27780000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,SHCORE,shcore.dll
+0x0000000C27830000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Windows Shell Common Dll,SHELL32.dll
+0x0000000C28CB0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft WinRT Storage API,windows.storage.dll
+0x0000000C0D8F0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Power Profile Helper DLL,powrprof.dll
+0x0000000C0D940000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,Filter Library,FLTLIB.DLL
+0x0000000C293E0000,10.0:17134.1,10.0:17134.1,0,0,0,0,0,67699888,Microsoft Corporation,NetBIOS Interface Library,netbios.dll
+0x0000000C294E0000,4.7:3362.0,4.0:30319.0,0,0,0,1,0,67699888,Microsoft Corporation,Microsoft .NET Runtime Common Language Runtime - WorkStation,clr.dll
+0x0000000C29ED0000,12.0:52519.0,12.0:52519.0,0,0,0,0,0,67699888,Microsoft Corporation,Microsoft® C Runtime Library,MSVCR120_CLR0400.dll
+0x0000000C2B610000,4.7:3362.0,4.0:30319.0,0,0,0,1,0,67699888,Microsoft Corporation,Microsoft .NET Runtime Just-In-Time Compiler,clrjit.dll
+0x0000000C2BDB0000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,sqlaccess,SqlAccess.dll
+0x0000000C2C900000,4.7:3260.0,4.0:30319.0,0,0,0,1,0,67699888,Microsoft Corporation,.NET Framework,System.Data.dll
+0x0000000C2C320000,4.7:3260.0,4.0:30319.0,0,0,0,1,0,67699888,Microsoft Corporation,.NET Framework,System.Transactions.dll
+0x0000000C2D5E0000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Upgrade Scripts DLL,SQLSCRIPTUPGRADE.DLL
+0x0000000C0D760000,2017.140:3238.1,14.0:3238.1,0,0,0,0,0,67699888,Microsoft Corporation,SQL Downgrade Scripts DLL,SQLSCRIPTDOWNGRADE.DLL

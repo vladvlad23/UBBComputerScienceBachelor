@@ -1,0 +1,21 @@
+var a;
+var b;
+var c;
+
+
+read a;
+b is a;
+c is 0;
+while (a not equal 0)
+{
+	c is c * 10 + a mod 10;
+	a is a div 10;
+}
+if (b equal c)
+{
+	print 1;
+}
+else
+{
+	print 0;
+}

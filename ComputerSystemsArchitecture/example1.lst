@@ -1,0 +1,42 @@
+     1                                  ; Write a program in the assembly language that computes the following arithmetic expression, considering the following data types for the variables:
+     2                                  ; a - byte, b - word
+     3                                  ; (b / a * 2 + 10) * b - b * 15;
+     4                                  ; ex. 1: a = 10; b = 40; Result: (40 / 10 * 2 + 10) * 40 - 40 * 15 = 18 * 40 - 1600 = 720 - 600 = 120
+     5                                  ; ex. 2: a = 100; b = 50; Result: (50 / 100 * 2 + 10) * 50 - 50 * 15 = 12 * 50 - 750 = 600 - 750 = - 150
+     6                                  
+     7                                  bits 32
+     8                                  
+     9                                  global start
+    10                                  
+    11                                  extern exit 
+    12                                  
+    13                                  import exit msvcrt.dll
+    14                                  
+    15                                  segment data use=32 class=data
+    16 00000000 64                          a db 100
+    17 00000001 3200                        b dw 50
+    18                                      
+    19                                  segment data use=32 class=code
+    20                                  start:
+    21 00000003 66A1[01000000]              mov AX, [b] ; AL = b
+    22 00000009 8A1D[00000000]              mov BL, [a] ; BL = a
+    23 0000000F F6F3                        div BL ; AL = AX/BL, AH=AX%BL <=> AL = b/a && AH = b%a
+    24 00000011 B302                        mov BL, 2
+    25 00000013 F6E3                        mul BL ; AL = AL*BL <=> AX = b/a*2
+    26 00000015 6683C00A                    add AX, 10 ; AX = (b/a*2 +10)
+    27 00000019 668B1D[01000000]            mov BX, [b] ; BL=b
+    28 00000020 66F7E3                      mul BX ; AL = AX/BL, AH = AX%BL <=> AL = (b/a*2+10)*b
+    29 00000023 6652                        push DX ; push ax to stack
+    30 00000025 6650                        push AX 
+    31 00000027 5B                          pop EBX
+    32 00000028 66A1[01000000]              mov AX, [b]
+    33 0000002E 66BA0F00                    mov DX, 15
+    34 00000032 66F7E2                      mul DX ; DX:AX = AX*DX = b*15
+    35 00000035 6652                        push DX ; dx to stack
+    36 00000037 6650                        push AX ; ax to stack
+    37 00000039 58                          pop EAX ; EAX = DX:AX = b*15
+    38 0000003A 29C3                        sub EBX,EAX ; (b/a*2+10)*b-b*15
+    39 0000003C FF3500000000                push dword[0]
+    40 00000042 FF15[00000000]              call [exit]
+    41                                  
+    42                                      ;DOAMNE AJUTA
